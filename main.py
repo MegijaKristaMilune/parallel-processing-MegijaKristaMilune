@@ -27,7 +27,6 @@ def parallel_processing(n, m, data):
 
     return output
 
-
 def main():
     n,m = map(int,input().split())
     data = list(map(int,input().split()))
@@ -37,7 +36,5 @@ def main():
     for both in result:
         print(both[0], both[1])
     
-    
-#
 if __name__ == "__main__":
     main()
