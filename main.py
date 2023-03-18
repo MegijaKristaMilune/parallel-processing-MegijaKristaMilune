@@ -9,6 +9,8 @@ def parallel_processing(n, m, data):
     for i in range(m):
         time2 = data[i]
 
+
+
         done = float('inf')
         x = 0
 
@@ -17,6 +19,7 @@ def parallel_processing(n, m, data):
                 done = time[j]
 
                 x = j
+                
 
         time1 = max(a[x], time[x])
         time[x] = time1+time2
