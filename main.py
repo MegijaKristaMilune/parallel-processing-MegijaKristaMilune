@@ -38,6 +38,7 @@ def main():
     for both in result:
         print(both[0], both[1])
     
+    
 
 if __name__ == "__main__":
     main()
