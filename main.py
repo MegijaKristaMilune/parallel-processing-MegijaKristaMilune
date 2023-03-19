@@ -27,7 +27,6 @@ def parallel_processing(n, m, data):
 
         output.append((x, time1))
 
-
     return output
 
 def main():
